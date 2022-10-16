@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #22292b;
+  }
+
+.middle{
+    width: 400px;
+    margin: 40vh auto;
+    text-align: center;
+  }
+
+
+.icons{
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+
+
+.icons li{
+    display: inline-block;
+    margin: 0.2em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+
+
+.icons li a{
+    width: 60px;
+    height: 60px;
+    color:#fff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#294d69;
+    border-radius: 20%;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+
+.icons li a:hover{
+    transform: rotate(360deg);    
+}
